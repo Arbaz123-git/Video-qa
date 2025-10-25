@@ -1,0 +1,18 @@
+[project]
+name = "video-qa"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "faiss-cpu>=1.12.0",
+    "huggingface-hub>=0.36.0",
+    "langchain>=1.0.2",
+    "langchain-community>=0.4",
+    "langchain-groq>=1.0.0",
+    "langchain-huggingface>=1.0.0",
+    "langchain-text-splitters>=1.0.0",
+    "sentence-transformers>=5.1.2",
+    "streamlit>=1.50.0",
+    "youtube-transcript-api>=1.2.3",
+]
