@@ -49,7 +49,7 @@ def get_response_from_query(db, query, k=4):
 
         # Initialize Groq chat (you might want to move API key to st.secrets)
         chat = ChatGroq(
-        api_key="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",
+        api_key="GROQ_API_KEY",
         model="llama-3.3-70b-versatile", 
         temperature=0
         )
